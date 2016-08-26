@@ -209,6 +209,12 @@ public class Ejercicio3 extends javax.swing.JFrame {
             v1[i] = N1;
         }
         JOptionPane.showMessageDialog(this, "Vector Llenado Con Exito");
+        cmdCrear.setEnabled(false);
+        cmdLlenarM.setEnabled(true);
+        cmdLlenarA.setEnabled(true);
+        cmdMostrar.setEnabled(false);
+        cmdBorrar.setEnabled(true);
+        txtLongitud.setEditable(false);
     }//GEN-LAST:event_cmdLlenarMActionPerformed
 
     private void cmdLlenarAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdLlenarAActionPerformed
